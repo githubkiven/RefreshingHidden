@@ -16,6 +16,7 @@
 		91B5FE3F247F56BE00F5EDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5FE3E247F56BE00F5EDDB /* main.m */; };
 		91B5FE49247F56BE00F5EDDB /* TextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5FE48247F56BE00F5EDDB /* TextTests.m */; };
 		91B5FE54247F56BE00F5EDDB /* TextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5FE53247F56BE00F5EDDB /* TextUITests.m */; };
+		91B5FE63247F598100F5EDDB /* UIView+LBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5FE61247F598100F5EDDB /* UIView+LBFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		91B5FE4F247F56BE00F5EDDB /* TextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B5FE53247F56BE00F5EDDB /* TextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextUITests.m; sourceTree = "<group>"; };
 		91B5FE55247F56BE00F5EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B5FE61247F598100F5EDDB /* UIView+LBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LBFrame.m"; sourceTree = "<group>"; };
+		91B5FE62247F598100F5EDDB /* UIView+LBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LBFrame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				91B5FE30247F56B800F5EDDB /* SceneDelegate.m */,
 				91B5FE32247F56B800F5EDDB /* ViewController.h */,
 				91B5FE33247F56B800F5EDDB /* ViewController.m */,
+				91B5FE62247F598100F5EDDB /* UIView+LBFrame.h */,
+				91B5FE61247F598100F5EDDB /* UIView+LBFrame.m */,
 				91B5FE35247F56B800F5EDDB /* Main.storyboard */,
 				91B5FE38247F56BE00F5EDDB /* Assets.xcassets */,
 				91B5FE3A247F56BE00F5EDDB /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 				91B5FE2E247F56B800F5EDDB /* AppDelegate.m in Sources */,
 				91B5FE3F247F56BE00F5EDDB /* main.m in Sources */,
 				91B5FE31247F56B800F5EDDB /* SceneDelegate.m in Sources */,
+				91B5FE63247F598100F5EDDB /* UIView+LBFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
